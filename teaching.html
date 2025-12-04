@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Basic -->
@@ -29,7 +29,7 @@
 
 <body class="sub_page">
   <div class="hero_area">
-    <!-- header section strats -->
+    <!-- header section starts -->
     <div class="hero_bg_box">
       <div class="img-box">
         <img src="images/hero-bg.jpg" alt="">
@@ -40,23 +40,17 @@
       <div class="header_top">
         <div class="container-fluid">
           <div class="contact_link-container">
-            <a href="" class="contact_link1">
+            <a href="#" class="contact_link1">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                "Arise, awake, and stop not until the goal is achieved." — Swami Vivekananda
-              </span>
+              <span>"Arise, awake, and stop not until the goal is achieved." — Swami Vivekananda</span>
             </a>
-            <a href="" class="contact_link2">
+            <a href="#" class="contact_link2">
               <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Call : +91 8840752443
-              </span>
+              <span>Call : +91 8840752443</span>
             </a>
-            <a href="" class="contact_link3">
+            <a href="#" class="contact_link3">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>
-                khanna.1@iitj.ac.in // sandeep.khanna@flame.edu.in
-              </span>
+              <span>khanna.1@iitj.ac.in // sandeep.khanna@flame.edu.in</span>
             </a>
           </div>
         </div>
@@ -65,41 +59,23 @@
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
-              <span>
-                
-              </span>
+              <span></span>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class=""></span>
             </button>
 
             <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-              <ul class="navbar-nav  ">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="education.html"> Education</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="experience.html"> Experience </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="publication.html"> Publications </a>
-                </li>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="teaching.html"> Teaching</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="certification.html">Certifications</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="achievement.html">Achievements</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="news.html">Recent News</a>
-                </li>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="publication.html">Publications</a></li>
+                <li class="nav-item active"><a class="nav-link" href="teaching.html">Teaching</a></li>
+                <li class="nav-item"><a class="nav-link" href="certification.html">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="achievement.html">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Recent News</a></li>
               </ul>
             </div>
           </nav>
@@ -109,99 +85,167 @@
     <!-- end header section -->
   </div>
 
+<style>
+  /* Visual enhancements */
+  .about_section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+
+  .heading_container h2 {
+    font-weight: 700;
+    color: #003366;
+    border-left: 5px solid #ff6600;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+
+  .teaching_card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+  }
+
+  .teaching_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .teaching_card img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    object-fit: contain;
+  }
+
+  .institute_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .institute_name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  .course_list {
+    font-size: 15px;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  .course_list strong {
+    color: #003366;
+  }
+
+  @media (max-width: 768px) {
+    .institute_header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .teaching_card img {
+      margin-bottom: 10px;
+    }
+  }
+</style>
 
   <section class="about_section layout_padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 px-0">
-        <div class="heading_container">
-          <h2>Teaching</h2>
+    <div class="container">
+      <div class="heading_container">
+        <h2>Teaching</h2>
+      </div>
+      <div class="teaching_card">
+        <div class="institute_header">
+          <img src="images/flamelogo.png" alt="FLAME University">
+          <div class="institute_name">FLAME University, Pune</div>
         </div>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <!-- <th>Institute Logo</th> -->
-              <th>Institute Name</th>
-              <th>Course/Training</th>
-              <!-- <th>Year of Passout</th>
-              <th>CGPA/Division</th> -->
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><img src="images/flamelogo.png" alt="Institute Logo" style="width:50px;height:50px;">
-               FLAME University, Pune</td>
-               <td> Subjects<br>
-                1) Introduction to Data Science using Python Programming<br> 
-               2) Data Mining for Business and Economic Intelligence</td>
-              
-            </tr>
-            <tr>
-              <td><img src="images/IITJ Logo__Small.png" alt="Institute Logo" style="width:50px;height:50px;">
-               Indian Institute of Technology Jodhpur</td>
-               <td> Teaching Assistantship (TA)<br>
-               1) Pattern Recognition and Machine Learning<br> 
-               2) Data Structure and Algorithm<br>
-               3) Social Network and Analysis<br>
-               4) Introduction to Python Programming<br>
-               5) Engineering Visualization<br>
-               6) Machine Learning-1<br>
-               7) ML for Digital Humanities<br>
-               8) Computer Organization and Architecture<br>
-             </td>             
-            </tr>
-            <tr>
-              <td><img src="images/psitlogo.png" alt="Institute Logo" style="width:50px;height:50px;">
-              Pranveer Singh Institute of Technology, Kanpur</td>
-              <td> Subjects<br>
-               1) Computer Graphics<br> 
-               2) Compiler Design<br>
-               3) Introduction to C Programming<br>
-               Training<br>
-               1) C Programming<br>
-               2) Oracle Database<br>
-               3) Python Programming<br>
-               4) HackWithInfy<br>
+        <div class="course_list">
+          <strong>Subjects:</strong><br>
+          • Introduction to Data Science using Python Programming<br>
+          • Data Mining for Business and Economic Intelligence
+        </div>
+      </div>
 
-             
-            </tr>
-            <tr>
-              <td><img src="images/koltelogo.png" alt="Institute Logo" style="width:50px;height:50px;">
-              Padm. Dr. VB Kolte College of Engineering, Malkapur</td>
-              <td> Subjects<br>
-               1) Data Communication and Networking<br> 
-               2) Object Oriented Analysis and Design<br>
-               3) Computer Graphics<br>
-               4) Computer Networks<br>
-               5) Compiler Design<br>
-               6) Operating System<br>
-               Training<br>
-               1) C Programming<br>
-               2) Oracle Database<br>
+      <div class="teaching_card">
+        <div class="institute_header">
+          <img src="images/IITJ Logo__Small.png" alt="IIT Jodhpur">
+          <div class="institute_name">Indian Institute of Technology Jodhpur</div>
+        </div>
+        <div class="course_list">
+          <strong>Teaching Assistantship (TA):</strong><br>
+          • Pattern Recognition and Machine Learning<br>
+          • Data Structure and Algorithm<br>
+          • Social Network and Analysis<br>
+          • Introduction to Python Programming<br>
+          • Engineering Visualization<br>
+          • Machine Learning - 1<br>
+          • ML for Digital Humanities<br>
+          • Computer Organization and Architecture
+        </div>
+      </div>
 
-             </td>
-              
-            </tr>
-            <tr>
-              <td><img src="images/ietlogo.jpg" alt="Institute Logo" style="width:50px;height:50px;">
-              Institute of Engineering and Technology, Indore</td>
-               <td> Teaching Assistantship (TA)<br>
-                1) Object Oriented Analysis and Design<br> 
-               2) Software Engineering</td> 
-            </tr>
-        
-            </tr>
-          </tbody>
-        </table>
+      <div class="teaching_card">
+        <div class="institute_header">
+          <img src="images/psitlogo.png" alt="PSIT Kanpur">
+          <div class="institute_name">Pranveer Singh Institute of Technology, Kanpur</div>
+        </div>
+        <div class="course_list">
+          <strong>Subjects:</strong><br>
+          • Computer Graphics<br>
+          • Compiler Design<br>
+          • Introduction to C Programming<br><br>
+
+          <strong>Training:</strong><br>
+          • C Programming<br>
+          • Oracle Database<br>
+          • Python Programming<br>
+          • HackWithInfy
+        </div>
+      </div>
+
+      <div class="teaching_card">
+        <div class="institute_header">
+          <img src="images/koltelogo.png" alt="Kolte College">
+          <div class="institute_name">Padm. Dr. V. B. Kolte College of Engineering, Malkapur</div>
+        </div>
+        <div class="course_list">
+          <strong>Subjects:</strong><br>
+          • Data Communication and Networking<br>
+          • Object Oriented Analysis and Design<br>
+          • Computer Graphics<br>
+          • Computer Networks<br>
+          • Compiler Design<br>
+          • Operating System<br><br>
+
+          <strong>Training:</strong><br>
+          • C Programming<br>
+          • Oracle Database
+        </div>
+      </div>
+
+      <div class="teaching_card">
+        <div class="institute_header">
+          <img src="images/ietlogo.jpg" alt="IET Indore">
+          <div class="institute_name">Institute of Engineering and Technology, Indore</div>
+        </div>
+        <div class="course_list">
+          <strong>Teaching Assistantship (TA):</strong><br>
+          • Object Oriented Analysis and Design<br>
+          • Software Engineering
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
-</body> 
+</body>
 
 </html>
